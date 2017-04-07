@@ -27,8 +27,8 @@ public class Main {
 				queue1.poll();
 			}
 			else {
-				System.out.println("Output: " + queue1.peek());
-				queue1.poll();
+				System.out.println("Output: " + queue1.peek());  // peek is equivalent to C++ front()
+				queue1.poll();  // poll is equivalent to C++ pop()
 				queue3=queue1;
 				queue1=queue2;
 				queue2=queue3;
