@@ -6,3 +6,6 @@ size contentName -> will give us the size of given "contentName"
 			* In case of file, only file's size will be given
 			* In case of directory, all summation of sub contents size will be given
 rm contentName -> delete content with named "contentName"
+
+**** Don't delete root or don't go to parent directory of root using "cd .." ****
+		**** App will be crashed, as it is not handled ****
