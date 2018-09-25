@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-public class MemoryFileSystem {
+public class InMemoryFileSystem {
 
 	private static final int COMMAND_WORD_NUMBER = 2;
 	
