@@ -15,8 +15,8 @@ import org.json.simple.parser.ParseException;
 public class WordGenerator {
 	
 	private final static String LANGUAGE = "en";
-	private final static String APP_ID = "03f2f7e1";
-	private final static String APP_KEY = "41ced50cdb212f538dea28b92b6e114c";
+	private final static String APP_ID = "My_ID";
+	private final static String APP_KEY = "My_Key";
 	private final static String API_BASED_URL = "https://od-api.oxforddictionaries.com:443/api/v1/entries/";
 	
 	private static StringBuilder permutedString = new StringBuilder();
