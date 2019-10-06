@@ -1,5 +1,6 @@
 /bin
 /out
+/META-INF
 .settings
 .classpath
 .project
