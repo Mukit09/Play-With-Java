@@ -36,6 +36,11 @@ public class FileDeleter {
         DIRECTORY = args[0];
         EXTENSION = args[1];
 
+        if(EXTENSION.charAt(0) != '.') {
+            System.out.println("Extension needs to be started with a .(dot), like .txt, .html, .mp4");
+            System.out.println("Give a proper extension...");
+            return;
+        }
         System.out.println("Directory found: " + DIRECTORY);
         System.out.println("Extension found: " + EXTENSION);
         System.out.println("Do you want to continue? If not type 1, else 2 to continue");
