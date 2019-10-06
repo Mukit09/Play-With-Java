@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="FileDeleterApp:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/FileDeleterApp_jar</output-path>
-    <root id="archive" name="FileDeleterApp.jar">
-      <element id="module-output" name="FileDeleterApp" />
-    </root>
-  </artifact>
-</component>
