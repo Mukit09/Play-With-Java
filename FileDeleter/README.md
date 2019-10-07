@@ -14,7 +14,7 @@ A jar has been pushed in the repository. You need this jar. Then you need to run
 
 Java needs to be installed on your machine. Go to the directory the jar file at, then run this command:
 
->  java -jar FileDeleterApp.jar /Top/Most/Directory File_type
+>  java -jar FileDeleterApp.jar /Parent/Directory File_type
 
 #### Example
 
