@@ -3,8 +3,9 @@
 ## Purpose Of This Application
 
 Sometimes we need to delete files of similar extension. These files may stay at different directory. Then it becomes annoying to go to each
-directory and find if targeted file found and then delete it. So this application needs to show the parent directory the required file
-type may stay, and also needs the file type you want to delete. The app will delete each and every files it finds recursively from the parent directory to all of its child directory you give as input.
+directory and find if targeted file found and then delete it. If this is the scenario for you, then you may try this app!
+
+So this application needs to show the parent directory the required file type may stay, and also needs the file type you want to delete. The app will delete each and every files it finds recursively from the parent directory to all of its child directory you give as input.
 
 ## Getting Started
 
