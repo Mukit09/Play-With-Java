@@ -49,6 +49,11 @@ public class FileDeleter {
         int type = scanner.nextInt();
         if(type == 2) {
             File[] files = new File(DIRECTORY).listFiles();
+            if(files == null) {
+                System.out.println(DIRECTORY + " is not a valid DIRECTORY...");
+                return;
+            }
+            System.out.println("File size: " + files.length);
             for (File file : files) {
                 if (file.isDirectory())
                     traverse(file);
