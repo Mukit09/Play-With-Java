@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("App started...");
-        ConnectionPool.getConnectionPoolInstance().createConnections(1);
+        ConnectionPool.getConnectionPoolInstance().createConnections(10);
         System.out.println("Total Connections: " + ConnectionPool.getConnectionPoolInstance().getConnectionPoolSize());
 
         Optional<Connection> optionalConnection = ConnectionPool.getConnectionPoolInstance().getConnectionFromPool();
