@@ -7,9 +7,9 @@
 .idea
 *.iml
 *.bak
-*/bin*
-*/lib*
+**/bin*
+**/lib*
 *.settings*
 *.classpath*
 *.project*
-*/out
+**/out
