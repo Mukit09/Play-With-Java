@@ -41,13 +41,11 @@ public class ThreadPoolImpl implements ThreadPool {
         private volatile T t;
 
         public FutureTask(Callable<T> callable) {
-            System.out.println("FutureTask constructor");
             this.callable = callable;
         }
 
         @Override
         public void run() {
-            System.out.println("Run called");
             try {
                 t = this.callable.call();
             } catch (Exception e) {
