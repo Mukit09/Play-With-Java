@@ -24,10 +24,10 @@ public class ConnectionPool {
     public void createConnections(int n) {
         try {
             MAX_CONNECTION = n;
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             for(int i = 0;i<n; i++) {
                 Connection connection = DriverManager.getConnection(
-                        "jdbc:mysql://localhost:3306/billing","root","");
+                        "jdbc:mysql://localhost:3306/billing","root","1234");
                 connections.add(connection);
             }
         } catch (Exception ex) {
@@ -36,7 +36,9 @@ public class ConnectionPool {
     }
 
     public int getConnectionPoolSize() {
-        return connections.size();
+        synchronized (this) {
+            return connections.size();
+        }
     }
 
     public Optional<Connection> getConnectionFromPool() {
