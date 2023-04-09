@@ -1,0 +1,1 @@
+java -classpath out/production/connectionPool/:mysql-connector-java-8.0.29-tidb-1.0.2.jar Main
